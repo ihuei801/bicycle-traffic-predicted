@@ -30,7 +30,7 @@ for row in reader:
     key = date + ":" + str(hour)
     if key in visit:
         continue
-
+    visit.add(key)
     #print date, hour
     get = False
     while not get:
