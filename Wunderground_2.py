@@ -6,12 +6,12 @@ import time
 #key = '4e569762648c374e'
 key_2 = '95f21e06821e30f1'
 years = ['2014']
-seasons = ['Q2', 'Q3', 'Q4']
+seasons = ['Q3','Q4']
 
 for y in years:
-    logfile = "weather/log_" + y + ".txt"
-    log = open(logfile, "wb")
     for s in seasons:
+        logfile = "weather/log_" + y + "_" + s + ".txt"
+        log = open(logfile, "wb")
         rfile = 'data/' + y + '-' + s + '-cabi-trip-history-data.csv'
         wfile = 'weather/' + rfile.split('/')[1].split('.')[0] +  '-weather.csv'
         csvrfile = open(rfile, 'rb')
@@ -28,16 +28,20 @@ for y in years:
             t = row['Start date']
             t = t.split()
             date = t[0].split('/')
-            year = int(date[2])
-            mon = int(date[0])
-            mday = int(date[1])
-            date = str(year) + '%02d' % mon + '%02d' % mday
-            t = t[1].split(':')
-            hour = int(t[0])
-            key = date + ":" + str(hour)
-            if key in visit:
+            try:
+                year = int(date[2])
+                mon = int(date[0])
+                mday = int(date[1])
+                date = str(year) + '%02d' % mon + '%02d' % mday
+                t = t[1].split(':')
+                hour = int(t[0])
+                key = date + ":" + str(hour)
+                if key in visit:
+                    continue
+                visit.add(key)
+            except:
+                print row['Start date']
                 continue
-            visit.add(key)
             #print date, hour
             get = False
             while not get:
@@ -80,10 +84,10 @@ for y in years:
             d['Start date'] = row['Start date'].split(':')[0]
             if len(d) != 5:
                 print date + ":" + str(hour)
-                log.write(date + ":" + str(hour))
-            writer.writerow(d)
-
-    print y + "-" + s + " finished"
+                log.write(date + ":" + str(hour)+ "\n")
+            else:
+                writer.writerow(d)
+        print y + "-" + s + " finished"
 
 
 
