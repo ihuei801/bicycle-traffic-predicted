@@ -6,7 +6,7 @@ import time
 #key = '4e569762648c374e'
 key_2 = '95f21e06821e30f1'
 years = ['2014']
-seasons = ['Q3','Q4']
+seasons = ['Q4']
 
 for y in years:
     for s in seasons:
@@ -25,10 +25,18 @@ for y in years:
         visit = set()
         for row in reader:
             d = {}
+            if '/' not in row['Start date']:
+                date_and_time = row['Start date'].split()
+                mdate = date_and_time[0]
+                num = mdate.split('-')
+                mdate = num[1] + '/' + num[2] + '/' + num[0]
+                mtime = date_and_time[1]
+                row['Start date'] = mdate + ' ' + mtime
             t = row['Start date']
             t = t.split()
-            date = t[0].split('/')
+
             try:
+                date = t[0].split('/') if '/' in t[0] else t[0].split('-')
                 year = int(date[2])
                 mon = int(date[0])
                 mday = int(date[1])
@@ -88,6 +96,7 @@ for y in years:
             else:
                 writer.writerow(d)
         print y + "-" + s + " finished"
+        log.write(y + "-" + s + " finished\n")
 
 
 
