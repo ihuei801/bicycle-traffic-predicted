@@ -1,0 +1,397 @@
+start station,terminalname,lat,long,label
+17th & K St NW,31213,38.90276,-77.03863,5
+7th & R St NW / Shaw Library,31245,38.912719,-77.022155,5
+Georgia & New Hampshire Ave NW,31400,38.936043,-77.024649,3
+14th & V St NW,31101,38.9176,-77.0321,3
+11th & Kenyon St NW,31102,38.929464,-77.027822,3
+37th & O St NW / Georgetown University,31236,38.90774,-77.071652,5
+Lynn & 19th St North,31014,38.897315,-77.070993,0
+Tenleytown / Wisconsin Ave & Albemarle St NW,31303,38.947607,-77.079382,6
+New York Ave & 15th St NW,31222,38.8991,-77.0337,5
+Metro Center / 12th & G St NW,31230,38.898364,-77.027869,5
+Lamont & Mt Pleasant NW,31107,38.9319,-77.0388,3
+25th St & Pennsylvania Ave NW,31237,38.903827,-77.053485,5
+7th & T St NW,31109,38.9155,-77.0222,3
+14th & Rhode Island Ave NW,31203,38.9086,-77.0323,5
+17th & Corcoran St NW,31214,38.9121,-77.0387,5
+Potomac & Pennsylvania Ave SE,31606,38.8803,-76.9862,7
+4th & E St SW,31244,38.88412,-77.017445,1
+18th & M St NW,31221,38.904742,-77.041606,5
+15th & P St NW,31201,38.90985,-77.034438,5
+Massachusetts Ave & Dupont Circle NW,31200,38.9101,-77.0444,5
+Park Rd & Holmead Pl NW,31602,38.9308,-77.0315,3
+19th St & Pennsylvania Ave NW,31100,38.9003,-77.0429,5
+Adams Mill & Columbia Rd NW,31104,38.922925,-77.042581,3
+Eastern Market Metro / Pennsylvania Ave & 7th St SE,31613,38.884,-76.995397,1
+L'Enfant Plaza / 7th & C St SW,31218,38.886266,-77.022241,5
+20th & Crystal Dr,31002,38.856425,-77.049232,8
+10th & U St NW,31111,38.9172,-77.0259,3
+California St & Florida Ave NW,31116,38.917761,-77.04062,3
+13th & H St NE,31611,38.9003,-76.9882,1
+Columbus Circle / Union Station,31623,38.89696,-77.00493,1
+Van Ness Metro / UDC,31300,38.944551,-77.063896,3
+Connecticut Ave & Newark St NW / Cleveland Park,31305,38.934267,-77.057979,3
+1st & M St NE,31603,38.9057,-77.0056,1
+16th & Harvard St NW,31103,38.926088,-77.036536,3
+Columbia Rd & Belmont St NW,31113,38.920669,-77.04368,3
+20th St & Florida Ave NW,31110,38.9154,-77.0446,3
+17th & K St NW / Farragut Square,31233,38.902061,-77.038322,5
+3000 Connecticut Ave NW / National Zoo,31307,38.930282,-77.055599,3
+36th & Calvert St NW / Glover Park,31304,38.922581,-77.070334,3
+Convention Center / 7th & M St NW,31223,38.905737,-77.02227,5
+14th & Harvard St NW,31105,38.9268,-77.0322,3
+14th & R St NW,31202,38.912682,-77.031681,5
+Thomas Circle,31241,38.9059,-77.0325,5
+21st & I St NW,31205,38.9008,-77.047,5
+4th & East Capitol St NE,31618,38.889955,-77.000349,1
+17th & Rhode Island Ave NW,31239,38.906602,-77.038785,5
+Calvert St & Woodley Pl NW,31121,38.923583,-77.050046,3
+Clarendon Blvd & N Fillmore St,31021,38.8881,-77.09308,0
+8th & H St NW,31228,38.8997,-77.023086,5
+14th St & Spring Rd NW,31401,38.9375,-77.0328,3
+North Capitol St & F St NW,31624,38.897446,-77.009888,1
+6th & H St NE,31615,38.899972,-76.998347,1
+13th & D St NE,31622,38.894832,-76.987633,1
+M St & New Jersey Ave SE,31208,38.8763,-77.0037,1
+9th & Upshur St NW,31404,38.9418,-77.0251,3
+14th & D St NW / Ronald Reagan Building,31231,38.894514,-77.031617,5
+14th & G St NW,31238,38.898069,-77.031823,5
+5th & F St NW,31620,38.897222,-77.019347,1
+23rd & Crystal Dr,31011,38.8533,-77.0498,8
+Florida Ave & R St NW,31503,38.9126,-77.0135,1
+13th St & New York Ave NW,31227,38.900283,-77.029822,5
+Bladensburg Rd & Benning Rd NE,31617,38.900413,-76.982872,1
+Harvard St & Adams Mill Rd NW,31112,38.927872,-77.043358,3
+14th & D St SE,31607,38.884,-76.9861,7
+21st & M St NW,31212,38.90534,-77.046774,5
+19th & East Capitol St SE,31601,38.8896,-76.9769,7
+14th St Heights / 14th & Crittenden St NW,31402,38.947774,-77.032818,3
+7th & F St NW / National Portrait Gallery,31232,38.897351,-77.022465,5
+N Rhodes & 16th St N,31018,38.892164,-77.079375,0
+1st & Rhode Island Ave NW,31506,38.915417,-77.012289,1
+34th St & Wisconsin Ave NW,31226,38.916442,-77.0682,3
+27th & Crystal Dr,31009,38.848441,-77.051516,8
+Eastern Market / 7th & North Carolina Ave SE,31610,38.886952,-76.996806,1
+Pennsylvania & Minnesota Ave SE,31805,38.873057,-76.971015,7
+20th & E St NW,31204,38.8963,-77.045,5
+3rd & G St SE,31625,38.881185,-77.001828,1
+Minnesota Ave Metro/DOES,31703,38.897063,-76.947446,7
+19th & L St NW,31224,38.903407,-77.043648,5
+3rd & H St NE,31616,38.900412,-77.001949,1
+4th & M St SW,31108,38.8767,-77.0178,1
+3rd & D St SE,31605,38.8851,-77.0023,1
+Eckington Pl & Q St NE,31505,38.910972,-77.00495,1
+Clarendon Metro / Wilson Blvd & N Highland St,31022,38.88786,-77.094875,0
+USDA / 12th & Independence Ave SW,31217,38.887237,-77.028226,5
+Georgetown Harbor / 30th St NW,31215,38.9022212,-77.059219,5
+12th & Army Navy Dr,31008,38.8629,-77.0528,8
+15th St & Massachusetts Ave SE,31626,38.88732,-76.983569,7
+S Glebe & Potomac Ave,31010,38.8426,-77.0502,8
+19th St & Constitution Ave NW,31235,38.8923,-77.0436,5
+C & O Canal & Wisconsin Ave NW,31225,38.90375,-77.06269,5
+M St & Pennsylvania Ave NW,31246,38.905126,-77.056887,5
+Columbia Rd & Georgia Ave NW,31115,38.928156,-77.02344,3
+15th & Crystal Dr,31003,38.86017,-77.049593,8
+Rosslyn Metro / Wilson Blvd & Ft Myer Dr,31015,38.8946,-77.072305,0
+10th & Monroe St NE,31504,38.932514,-76.992889,1
+19th & E Street NW,31206,38.8952,-77.0436,5
+Kennedy Center,31211,38.897293,-77.05557,5
+12th & Newton St NE,31501,38.933668,-76.991016,1
+US Dept of State / Virginia Ave & 21st St NW,31220,38.894919,-77.046587,5
+10th St & Constitution Ave NW,31219,38.893028,-77.026013,5
+Good Hope & Naylor Rd SE,31700,38.8601,-76.9672,7
+11th & H St NE,31614,38.899983,-76.991383,1
+4th & D St NW / Judiciary Square,31621,38.895344,-77.016106,1
+Wilson Blvd & Franklin Rd,31020,38.8904,-77.0889,0
+S Joyce & Army Navy Dr,31006,38.8637,-77.0633,8
+Georgia Ave and Fairmont St NW,31207,38.9249,-77.0222,3
+8th & Eye St SE / Barracks Row,31608,38.8792,-76.9953,1
+Ward Circle / American University,31301,38.938736,-77.087171,6
+18th St & Pennsylvania Ave NW,31242,38.89968,-77.041539,5
+Wilson Blvd & N Edgewood St,31019,38.889,-77.0925,0
+John McCormack Dr & Michigan Ave NE,31502,38.9346,-76.9955,1
+Branch & Pennsylvania Ave SE,31701,38.8692,-76.9599,7
+Anacostia Metro,31801,38.862669,-76.994637,7
+Clarendon Blvd & Pierce St,31016,38.893438,-77.076389,0
+Good Hope Rd & MLK Ave SE,31802,38.867373,-76.988039,7
+Anacostia Library,31804,38.865784,-76.9784,7
+Benning Rd & East Capitol St NE / Benning Rd Metro,31707,38.889935,-76.93723,7
+Benning Branch Library,31705,38.894,-76.947974,7
+Congress Heights Metro,31806,38.844711,-76.987823,7
+Fairfax Village,31706,38.86559,-76.952103,7
+Maryland & Independence Ave SW,31243,38.887299,-77.018939,1
+1st & K St SE,31628,38.87861,-77.006004,1
+39th & Calvert St NW / Stoddert,31306,38.922649,-77.077271,3
+20th & O St NW / Dupont South,31234,38.908905,-77.04478,5
+1st & Washington Hospital Center NW,31507,38.928743,-77.012457,3
+Virginia Square Metro / N Monroe St & 9th St N,31024,38.882788,-77.103148,0
+Central Library / N Quincy St & 10th St N,31025,38.88397,-77.10783,0
+D St & Maryland Ave NE,31612,38.894758,-76.997114,1
+Washington Blvd & 10th St N,31026,38.884734,-77.093485,0
+Ohio Dr & West Basin Dr SW / MLK & FDR Memorials,31240,38.88412,-77.04657,5
+Jefferson Dr & 14th St SW,31247,38.888553,-77.032429,5
+New Hampshire Ave & T St NW,31229,38.91554,-77.03818,3
+Smithsonian / Jefferson Dr & 12th St SW,31248,38.888767,-77.02858,5
+Key Blvd & N Quinn St,31027,38.896015,-77.078107,0
+N Veitch  & 20th St N,31029,38.896923,-77.086502,0
+N Veitch & Key Blvd,31028,38.893241,-77.086045,0
+15th & N Scott St,31031,38.89054,-77.08095,0
+Wilson Blvd & N Oakland St,31033,38.8815,-77.10396,0
+Fairfax Dr & Wilson Blvd,31023,38.885801,-77.097745,0
+N Randolph St & Fairfax Dr,31034,38.882629,-77.109366,0
+N Quincy St & Glebe Rd,31035,38.876393,-77.107735,0
+Ballston Metro / N Stuart & 9th St N,31037,38.881044,-77.111768,0
+George Mason Dr & Wilson Blvd,31036,38.87887,-77.1207,0
+Washington Blvd & 7th St N,31032,38.880834,-77.091129,0
+Jefferson Memorial,31249,38.879819,-77.037413,5
+Good Hope Rd & 14th St SE,31803,38.866611,-76.985238,7
+Glebe Rd & 11th St N,31038,38.883921,-77.116817,0
+20th & L St NW,31250,38.903584,-77.044789,5
+12th & L St NW,31251,38.903819,-77.0284,5
+19th & K St NW,31253,38.902204,-77.04337,5
+21st St & Pennsylvania Ave NW,31252,38.901539,-77.046564,5
+22nd & I St NW / Foggy Bottom,31257,38.90088,-77.048911,5
+10th & E St NW,31256,38.895914,-77.026064,5
+15th & K St NW,31254,38.902,-77.03353,5
+King St & Patrick St,31044,38.805317,-77.049883,4
+24th & N St NW,31255,38.9066,-77.05152,5
+Gallaudet / 8th St & Florida Ave NE,31508,38.90509,-76.9941,1
+Commerce St & Fayette St,31045,38.805648,-77.05293,4
+Prince St & Union St,31041,38.803124,-77.040363,4
+Braddock Rd Metro,31047,38.814577,-77.052808,4
+1st & N St  SE,31209,38.8743,-77.0057,1
+Market Square / King St & Royal St,31042,38.804718,-77.043363,4
+Arlington Blvd & N Queen St,31051,38.889365,-77.077294,0
+Barton St & 10th St N,31050,38.884961,-77.08777,0
+Henry St & Pendleton St,31046,38.811456,-77.050276,4
+Saint Asaph St & Pendleton  St,31043,38.810743,-77.044664,4
+Lincoln Memorial,31258,38.888251,-77.049426,5
+Crystal City Metro / 18th & Bell St,31007,38.857063,-77.051141,8
+Potomac Ave & 35th St S,31052,38.844015,-77.050537,8
+21st St & Constitution Ave NW,31261,38.892459,-77.046567,5
+M St & Delaware Ave NE,31627,38.905707,-77.003041,1
+11th & F St NW,31262,38.897857,-77.026975,5
+20th St & Virginia Ave NW,31259,38.894722,-77.045128,5
+Walter Reed Community Center / Walter Reed Dr & 16th St S,31054,38.857803,-77.086733,8
+39th & Veazey St NW,31308,38.943837,-77.077078,6
+Columbia Pike & S Courthouse Rd,31053,38.863833,-77.080319,8
+Fessenden St & Wisconsin Ave NW,31309,38.954812,-77.082426,6
+28th St S & S Meade St,31055,38.846222,-77.069275,8
+15th & Euclid St  NW,31117,38.92333,-77.0352,3
+18th St & Wyoming Ave NW,31114,38.918809,-77.041571,3
+5th St & Massachusetts Ave NW,31265,38.90093,-77.018677,1
+6th St & Indiana Ave NW,31264,38.894573,-77.01994,1
+17th St & Massachusetts Ave NW,31267,38.908142,-77.038359,5
+New Jersey Ave & R St NW,31509,38.912659,-77.017669,1
+5th & K St NW,31600,38.90304,-77.019027,1
+11th & M St NW,31266,38.905607,-77.027137,5
+Fairfax Dr & Kenmore St,31040,38.884616,-77.10108,0
+5th & Kennedy St NW,31403,38.956595,-77.019815,9
+23rd & Eads St,31013,38.853531,-77.053509,8
+15th & East Capitol St NE,31630,38.889908,-76.983326,7
+Randle Circle & Minnesota Ave SE,31702,38.878,-76.9607,7
+14th & Upshur St NW,31406,38.942016,-77.032652,3
+Wisconsin Ave & O St NW,31312,38.90849,-77.063586,5
+18th & Eads St.,31001,38.85725,-77.05332,8
+S Troy St & 26th St S,31056,38.847977,-77.075104,8
+Neal St & Trinidad Ave NE,31512,38.903732,-76.987211,1
+Connecticut Ave & Yuma St NW,31318,38.947156,-77.065115,3
+8th & East Capitol St NE,31629,38.889988,-76.995193,1
+12th & Irving St NE,31511,38.928644,-76.990955,1
+8th & F St NE,31631,38.897274,-76.994749,1
+Connecticut & Nebraska Ave NW,31310,38.955016,-77.069956,6
+Georgia Ave & Emerson St NW,31405,38.949662,-77.027333,3
+18th St & Rhode Island Ave NE,31510,38.927095,-76.978924,1
+S Arlington Mill Dr & Campbell Ave,31060,38.84232,-77.089555,8
+15th & F St NE,31632,38.897195,-76.983575,1
+14th St & Colorado Ave NW,31407,38.956432,-77.032947,3
+S Kenmore & 24th St S,31061,38.848454,-77.084918,8
+S Four Mile Run Dr & S Shirlington Rd,31057,38.8444,-77.085931,8
+S Oakland St & Columbia Pike,31058,38.860789,-77.09586,0
+Pleasant St & MLK Ave SE,31807,38.863897,-76.990037,7
+Alabama & MLK Ave SE,31800,38.843222,-76.999388,7
+S George Mason Dr & Four Mile Run,31063,38.852248,-77.105022,0
+S George Mason Dr & 13th St S,31062,38.854691,-77.100555,0
+N Pershing Dr & Wayne St,31065,38.880705,-77.08596,0
+S Stafford & 34th St S,31064,38.834108,-77.087323,8
+Columbia Pike & S Orme St,31066,38.867262,-77.072315,8
+8th & D St NW,31270,38.894851,-77.02324,5
+3rd & Elm St NW,31118,38.917622,-77.01597,1
+3rd St & Pennsylvania Ave SE,31269,38.887378,-77.001955,1
+Constitution Ave & 2nd St NW/DOL,31271,38.892275,-77.013917,1
+Rhode Island Ave & V St NE,31513,38.918155,-77.004746,1
+Washington & Independence Ave SW/HHS,31272,38.886978,-77.013769,1
+Independence Ave & L'Enfant Plaza SW/DOE,31633,38.887312,-77.025762,5
+Hamlin & 7th St NE,31514,38.927497,-76.997194,1
+Columbia Pike & S Walter Reed Dr,31067,38.862478,-77.086599,8
+Columbia Pike & S Dinwiddie St / Arlington Mill Community Center,31068,38.856319,-77.11153,0
+Pershing & N George Mason Dr,31069,38.871822,-77.107906,0
+Calvert & Biltmore St NW,31106,38.923203,-77.047637,3
+E Montgomery Ave & Maryland Ave,32007,39.084125,-77.151291,2
+Friendship Hts Metro/Wisconsin Ave & Wisconsin Cir,32014,38.961763,-77.085998,6
+Cordell & Norfolk Ave,32008,38.98954,-77.098029,6
+Maple & Ritchie Ave,32011,38.983627,-77.006311,9
+Philadelphia & Maple Ave,32010,38.98128,-77.011336,9
+13th St & Eastern Ave,32006,38.987,-77.029417,9
+Norfolk Ave & Fairmont St,32000,38.988562,-77.096539,6
+Silver Spring Metro/Colesville Rd & Wayne Ave,32012,38.99521,-77.02918,9
+Montgomery & East Ln,32013,38.983525,-77.095367,6
+Frederick Ave & Horners Ln,32009,39.094772,-77.145213,2
+Fallsgrove Blvd & Fallsgrove Dr,32004,39.096312,-77.192672,2
+Traville Gateway Dr & Gudelsky Dr,32005,39.093783,-77.202501,2
+14th & Belmont St NW,31119,38.921074,-77.031887,3
+New Jersey Ave & N St NW/Dunbar HS,31636,38.90706,-77.015231,1
+31st & Woodrow St S,31072,38.837666,-77.09482,8
+Potomac Ave & 8th St SE,31635,38.876737,-76.994468,7
+10th & Florida Ave NW,31120,38.920387,-77.025672,3
+King Farm Blvd & Piccard Dr,32038,39.110314,-77.182669,2
+East West Hwy & Blair Mill Rd,32019,38.990249,-77.02935,9
+North Capitol St & G Pl NE,31637,38.899703,-77.008911,1
+26th & S Clark St,31012,38.850688,-77.05152,8
+3rd & Tingey St SE,31634,38.87501,-77.0024,1
+Aurora Hills Community Ctr/18th & Hayes St,31004,38.857866,-77.05949,8
+Arlington Blvd & Fillmore St,31070,38.873755,-77.089233,0
+Connecticut Ave & Tilden St NW,31313,38.941154,-77.062036,3
+Deanwood Rec Center,31711,38.908473,-76.933099,7
+Offutt Ln & Chevy Chase Dr,32029,38.977093,-77.094589,6
+Crabbs Branch Way & Redland Rd,32015,39.120045,-77.156985,2
+Monroe St & Monroe Pl,32017,39.082779,-77.148827,2
+Battery Ln & Trolley Trail,32027,38.992375,-77.100104,6
+Ripley & Bonifant St,32034,38.992679,-77.029457,9
+Nannie Helen Burroughs & Minnesota Ave NE,31704,38.901385,-76.941877,7
+Long Bridge Park/Long Bridge Dr & 6th St S,31071,38.86646,-77.04826,8
+47th & Elm St,32021,38.982456,-77.091991,6
+Carroll & Ethan Allen Ave,32026,38.977933,-77.006472,9
+Fenton St & Gist Ave,32024,38.989724,-77.023854,9
+Taft St & E Gude Dr,32031,39.094103,-77.132954,2
+Norfolk & Rugby Ave,32028,38.990639,-77.100239,6
+Piccard & W Gude Dr,32033,39.102212,-77.177091,2
+Friendship Blvd & Willard Ave,32040,38.96115,-77.088659,6
+Hains Point/Buckeye & Ohio Dr SW,31273,38.878433,-77.03023,5
+King Farm Blvd & Pleasant Dr,32037,39.114688,-77.171487,2
+Fleet St & Ritchie Pkwy,32032,39.076331,-77.141378,2
+Broschart & Blackwell Rd,32030,39.102099,-77.200322,2
+Georgia Ave & Spring St,32035,38.999388,-77.031555,9
+Garland Ave & Walden Rd,32022,39.000578,-77.00149,9
+Old Georgetown Rd & Southwick St,32039,38.999634,-77.109647,6
+Carroll & Westmoreland Ave,32025,38.975,-77.01121,9
+Crabbs Branch Way & Calhoun Pl,32020,39.107709,-77.152072,2
+Montgomery College/W Campus Dr & Mannakee St,32023,39.095661,-77.159048,2
+Nannie Helen Burroughs Ave & 49th St NE,31710,38.898536,-76.931862,7
+Needwood Rd & Eagles Head Ct,32018,39.123513,-77.15741,2
+3rd & H St NW,31604,38.899408,-77.015289,1
+6th & Water St SW / SW Waterfront,31609,38.87675,-77.02127,1
+Medical Center Dr & Key West Ave,32041,39.103091,-77.196442,2
+Shady Grove Hospital,32042,39.097636,-77.196636,2
+1st & H St NW,31638,38.900358,-77.012108,1
+Takoma Metro,31408,38.975219,-77.016855,9
+Fort Totten Metro,31515,38.952369,-77.002721,9
+Rhode Island Ave Metro,31516,38.920682,-76.995876,1
+Rockville Metro East,32044,39.085394,-77.145803,2
+Rolfe St & 9th St S,31075,38.866471,-77.076131,8
+Shirlington Transit Center / S Quincy & Randolph St,31076,38.839912,-77.087083,8
+Bethesda Metro,32048,38.984691,-77.094537,6
+River Rd & Landy Ln,32046,38.964992,-77.103381,6
+Iwo Jima Memorial/N Meade & 14th St N,31077,38.88992,-77.071301,0
+Fallsgrove Dr & W Montgomery Ave,32016,39.099376,-77.188014,2
+Shady Grove Metro West,32045,39.119765,-77.166093,2
+Rockville Metro West,32047,39.084379,-77.146866,2
+4th & W St NE,31500,38.919077,-77.000648,1
+TJ Cmty Ctr / 2nd St & S Old Glebe Rd,31074,38.869418,-77.095596,0
+Arlington Blvd & S George Mason Dr/NFATC,31078,38.869442,-77.104503,0
+Lee Hwy & N Cleveland St,31079,38.894941,-77.09169,0
+MLK Library/9th & G St NW,31274,38.898404,-77.024281,5
+12th & U St NW,31268,38.916787,-77.028139,3
+Wilson Blvd & N Uhle St,31017,38.891696,-77.0846,0
+Pentagon City Metro / 12th & S Hayes St,31005,38.862303,-77.059936,8
+Lee Hwy & N Scott St,31080,38.897612,-77.080851,0
+New Hampshire Ave & 24th St NW,31275,38.901755,-77.051084,5
+Eisenhower Ave & Mill Race Ln,31082,38.801111,-77.068952,4
+Duke St & John Carlyle St,31081,38.804378,-77.060866,4
+Ballenger Ave & Dulaney St,31084,38.802677,-77.063562,4
+Mount Vernon Ave & E Nelson Ave,31085,38.820064,-77.057619,4
+Mount Vernon Ave & Kennedy St,31088,38.833077,-77.059821,8
+Mount Vernon Ave & E Del Ray Ave,31086,38.82595,-77.058541,4
+Potomac Greens Dr & Slaters Ln,31083,38.82175,-77.047494,4
+Monroe Ave & Leslie Ave,31087,38.820932,-77.053096,4
+Washington Adventist U / Flower Ave & Division St,32049,38.986743,-77.000035,9
+6th & S Ball St,31090,38.864702,-77.048672,8
+14th St & New York Ave NW,31216,38.899632,-77.031686,5
+Bethesda Ave & Arlington Rd,32002,38.981103,-77.097426,6
+17th & G St NW,31277,38.89841,-77.039624,5
+15th & L St NW,31276,38.90366,-77.034846,5
+McKinley St & Connecticut Ave NW,31315,38.96497,-77.075946,6
+S Joyce & 16th St S,31091,38.859254,-77.063275,8
+18th & R St NW,31278,38.912648,-77.041834,5
+Union Market/6th St & Neal Pl NE,31517,38.908008,-76.996985,1
+Spring St & Second Ave,32050,38.997653,-77.034499,9
+21st St N & N Pierce St,31093,38.898984,-77.078317,0
+Wisconsin Ave & Newark St NW,31302,38.934881,-77.072755,3
+Lee Hwy & N Kirkwood Rd,31094,38.895377,-77.09713,0
+19th & G St NW,31279,38.898412,-77.043182,5
+11th & S St NW,31280,38.913761,-77.027025,5
+2nd & G St NE,31639,38.89967,-77.003666,1
+S Walter Reed Dr & 8th St S,31096,38.86612,-77.08787,0
+Army Navy Dr & S Nash St,31095,38.862467,-77.068242,8
+Anacostia Ave & Benning Rd NE / River Terrace,31708,38.896544,-76.96012,7
+Lincoln Park / 13th & East Capitol St NE,31619,38.890461,-76.988355,1
+N Adams St & Lee Hwy,31030,38.89593,-77.089006,0
+King St Metro,31048,38.805767,-77.06072,4
+10th & K St NW,31263,38.9024,-77.02622,5
+23rd & E St NW,31260,38.896104,-77.049882,5
+N Quincy St & Wilson Blvd,31039,38.880012,-77.107854,0
+N Nelson St & Lee Hwy,31092,38.896456,-77.104562,0
+34th & Water St NW,31314,38.903295,-77.065884,5
+8th & F St NW,31232,38.897351,-77.022465,5
+Court House Metro / 15th & N Uhle St,31089,38.890612,-77.084801,0
+Veterans Pl & Pershing Dr,32043,38.997445,-77.023894,9
+20th & Bell St,31000,38.858971,-77.05323,8
+Utah St & 11th St N,31049,38.883669,-77.113905,0
+Fenton St & New York Ave,32001,38.985404,-77.023082,9
+Fenton St & Ellsworth Dr,32036,38.997033,-77.025608,9
+Montgomery Ave & Waverly St,32003,38.983838,-77.09221,6
+Washington Blvd & Walter Reed Dr,31073,38.873219,-77.082104,0
+S Four Mile Run & Walter Reed Dr,31059,38.84736,-77.095431,8
+8th & O St NW,31281,38.90864,-77.02277,5
+Georgia & Missouri Ave NW,31411,38.961339,-77.027855,9
+Oklahoma Ave & D St NE,31712,38.894474,-76.974828,7
+King St Metro South,31048,38.805767,-77.06072,4
+Lee Hwy & N Nelson St,31092,38.896456,-77.104562,0
+Lee Hwy & N Adams St,31030,38.89593,-77.089006,0
+Maryland Ave & E St NE,31640,38.896134,-76.9929,1
+New York Ave & Hecht Ave NE,31518,38.915604,-76.983683,1
+16th & Irving St NW,31122,38.928893,-77.03625,3
+16th & R St NW,31282,38.912652,-77.036278,5
+Wisconsin Ave & Ingomar St NW,31317,38.958267,-77.084636,6
+Medical Center Metro,32053,38.999378,-77.097882,6
+Saint Asaph & Madison St,31097,38.812718,-77.044097,4
+Yuma St & Tenley Circle NW,31316,38.946182,-77.08059,6
+King St Metro North / Cameron St,31098,38.80704,-77.059817,4
+Lee Hwy & N Woodstock St,31900,38.898301,-77.118009,0
+Washington Blvd & N Frederick St,31901,38.884829,-77.127671,0
+Madison & N Henry St,31099,38.813485,-77.049468,4
+Key West Ave & Siesta Key Way,32052,39.105295,-77.194774,2
+Wilson Blvd & N Illinois St,31902,38.876528,-77.12712,0
+Connecticut Ave & Chevy Chase Lake Dr,32051,38.994113,-77.076986,6
+Eads St & 15th St S,31000,38.858971,-77.05323,8
+Lyttonsville Rd & Lyttonsville Pl,32054,38.999679,-77.051168,9
+Woodmont Ave & Strathmore St,32055,38.979875,-77.093522,6
+14th & L St NW,31283,38.903658,-77.031737,5
+1st & O St NW,31519,38.908643,-77.012365,1
+South Capitol & Atlantic St SW,31811,38.831516,-77.008133,7
+18th & C St NW,31284,38.893511,-77.041544,5
+22nd & P ST NW,31285,38.909394,-77.048728,5
+East West Hwy & 16th St,32056,38.995681,-77.038721,9
+Royal & Wilkes St,31903,38.799267,-77.0447,4
+14th & Girard St NW,31123,38.925284,-77.032375,3
+10th St & L'Enfant Plaza SW,31287,38.884377,-77.025791,5
+11th & O St NW,31286,38.90843,-77.02714,5
+2nd St & Massachusetts Ave NE,31641,38.894972,-77.003135,1
+East Falls Church Metro/Sycamore St & 19th St N,31904,38.884859,-77.155988,0
+Commonwealth Ave & Oak St,31906,38.812711,-77.061715,4
+Commonwealth & E Monroe Ave,31913,38.8200582335,-77.0628207922,4
+Potomac Ave & Main Line Blvd,31910,38.822738,-77.049265,4
+Radford & Osage St,31908,38.828437,-77.086031,8
+4th St & Madison Dr NW,31288,38.890493,-77.017253,1
+17th St & Independence Ave SW,31290,38.888097,-77.038325,5
+Henry Bacon Dr & Lincoln Memorial Circle NW,31289,38.890544,-77.049379,5
