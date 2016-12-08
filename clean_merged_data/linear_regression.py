@@ -4,12 +4,16 @@ import matplotlib.pyplot as plt
 from sklearn import svm
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import AdaBoostRegressor
+from sklearn.model_selection import GridSearchCV
 import csv
 import time
+import os
 import math
 import calendar
 from datetime import datetime
-
+from math import log
+import plotly.plotly as py
+import plotly.tools as tls
 
 def convert_type(df):
     df['date'] = pd.to_datetime(df['date'], format="%m/%d/%Y")
@@ -76,124 +80,109 @@ def split_train_test(df):
     df_test = df.loc[df['date'] >= '2015-1-1'].reset_index(drop=True)
     return df_train, df_test
 
+svm_res = []
+dec_res = []
+path = "./data_by_cluster/"
+for filename in os.listdir(path):
+    df = pd.read_csv(path+filename)
+    # print df.head()
+    # convert data to correct type:
+    df = convert_type(df)
+    # print df.head()
 
-df = pd.read_csv('data_by_cluster/cluster_0_data_with_weather.csv')
-# print df.head()
-# convert data to correct type:
-df = convert_type(df)
-# print df.head()
+    df_train = extract_train(df)
+    df_test = extract_test(df)
+    # print df_train.head()
+    # print len(df_train)
+    # print df_test.head()
+    # print len(df_test)
+    df_train_feature = create_features(df_train)
+    # print df_train_feature.head()
+    df_test_feature = create_features(df_test)
+    X_train = df_train_feature.drop('count', 1).values
+    # print X_train[:10]
+    y_train = df_train_feature['count'].values
+    # print y_train[:10]
 
-df_train = extract_train(df)
-df_test = extract_test(df)
-# print df_train.head()
-# print len(df_train)
-# print df_test.head()
-# print len(df_test)
-df_train_feature = create_features(df_train)
-# print df_train_feature.head()
-df_test_feature = create_features(df_test)
-X_train = df_train_feature.drop('count', 1).values
-# print X_train[:10]
-y_train = df_train_feature['count'].values
-# print y_train[:10]
-
-# SVM
-print "SVM"
-svc = svm.SVC(C=1, kernel='linear')
-clf = svc.fit(X_train, y_train)
-X_test = df_test_feature.drop('count', 1).values
-# print X_test[:10]
-y_test = df_test_feature['count'].values
-# print y_test[:10]
-
-y_pred = clf.predict(X_test)
-x_sample = range(len(y_pred))
-plt.scatter(x_sample[:100], y_pred[:100], color='b')
-print x_sample[:10]
-print y_pred[:10]
-print len(y_pred)
-
-with open('svm_result.csv', 'wb') as result_file:
-    csv_writer = csv.writer(result_file)
-    for i in range(len(y_pred)):
-        csv_writer.writerow([y_pred[i]])
-print calculate_mse(y_pred, y_test)
-
-#bike predictor
-print "bike predictor"
-Bestset = [19, 3, 2]
-Bestadaboost = [75, 0.05]
-rng = np.random.RandomState(1)
-
-clf = AdaBoostRegressor(
-    DecisionTreeRegressor(max_depth=Bestset[0], min_samples_split=Bestset[1], min_samples_leaf=Bestset[2]),
-    n_estimators=Bestadaboost[0], learning_rate=Bestadaboost[1], random_state=rng)
-# clf = AdaBoostRegressor(DecisionTreeRegressor(max_depth=Bestset[0], min_samples_split=Bestset[1], min_samples_leaf = Bestset[2]), n_estimators=Bestadaboost[0], learning_rate=Bestadaboost[1], random_state=rng)
-# clf = DecisionTreeRegressor(max_depth=Bestset[0], min_samples_split=Bestset[1], min_samples_leaf = Bestset[2])
-clf = clf.fit(X_train, y_train)
-
-y_pred = clf.predict(X_test)
-x_sample = range(len(y_pred))
-plt.scatter(x_sample[:100], y_pred[:100], color='r')
-print x_sample[:10]
-print y_pred[:10]
-print len(y_pred)
-
-with open('adaboost_result.csv', 'wb') as result_file:
-    csv_writer = csv.writer(result_file)
-    for i in range(len(y_pred)):
-        csv_writer.writerow([y_pred[i]])
-print calculate_mse(y_pred, y_test)
-
-plt.scatter(x_sample[:100], y_test[:100], color='y')
-plt.show()
-# tst_data_date = tst_data['date'].values
-# tst_data_other = tst_data.values
-# print tst_data_date
-# print tst_data_other
-# BP = Bikepredictor(trn_data) #save data in the predictor
-# print BP.data[:10]
-# BP.TrainDateTransform(trn_data_date) #convert date to day in a year
-# print BP.data[:10]
-# tst_data = BP.TestDateTransform(tst_data_date,tst_data_other) #convert date to day in a year
-# print tst_data[:10]
-# tst_result = BP.BicyclePredict(tst_data)
-# with open('midterm_result.csv', 'wb') as result_file:
-#     csv_writer = csv.writer(result_file)
-#     for i in range(len(tst_result)):
-#         csv_writer.writerow([tst_result[i]])
-# df_train = extract_2011(df)
-# df_train_feature = create_features(df_train)
-# df_test = extract_2012(df)
-# X_train = df_train_feature.drop('count', 1)
-# y_train = df_train_feature['count']
-
-# df_test_feature = create_features(df_test)
-# X_test = df_test_feature.drop('count', 1)
-# y_test = df_test_feature['count']
-# y_pred = clf.predict(X_test)
-# print y_pred
-# print clf.score(X_test, y_test)
+    # SVM
+    print "SVM"
+    # eps = np.arange(9,10.1,0.1).tolist()
+    # tols = np.arange(2,3.1,0.1).tolist()
+    # gamma = np.arange(0.5,1.1,0.1).tolist()
+    #eps = [1e-10, 1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1]
+    svr = svm.SVR(C=100, gamma=0.7, epsilon=6.4)
+    #print svr.get_params()
+    clf = svr.fit(X_train, y_train)
+    X_test = df_test_feature.drop('count', 1).values
+    # print X_test[:10]
+    y_test = df_test_feature['count'].values
 
 
-# df_feature = normalize(df_feature)
-# X = df_feature.drop('count', 1)
-# y = df_feature['count']
-# from sklearn.model_selection import train_test_split
-# print X.head()
-# print y.head()
-# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=0)
 
 
-# from sklearn.model_selection import KFold, cross_val_score
-# k_fold = KFold(n_splits=4)
-#
-#
-# print clf.score(X_test, y_test)
-#
-# from sklearn.model_selection import ShuffleSplit
-# cv = ShuffleSplit(n_splits=3, test_size=0.3, random_state=0)
-# scores = cross_val_score(svc, X, y, cv=5)
-# print scores
-# score2 = cross_val_score(svc, X, y, cv=cv)
-# print score2
+    y_pred = clf.predict(X_test)
+    y_pred = [max(0,x) for x in y_pred]
+    x_sample = range(len(y_pred))
+
+    #print x_sample[:10]
+    #print y_pred[:10]
+
+
+    # with open('svm_result.csv', 'wb') as result_file:
+    #     csv_writer = csv.writer(result_file)
+    #     for i in range(len(y_pred)):
+    #         csv_writer.writerow([y_pred[i]])
+    res = calculate_mse(y_pred, y_test)
+    svm_res.append(res)
+
+    #bike predictor
+    print "bike predictor"
+    Bestset = [19, 3, 2]
+    Bestadaboost = [75, 0.05]
+    rng = np.random.RandomState(1)
+
+    clf = AdaBoostRegressor(
+        DecisionTreeRegressor(max_depth=Bestset[0], min_samples_split=Bestset[1], min_samples_leaf=Bestset[2]),
+        n_estimators=Bestadaboost[0], learning_rate=Bestadaboost[1], random_state=rng)
+    # clf = AdaBoostRegressor(DecisionTreeRegressor(max_depth=Bestset[0], min_samples_split=Bestset[1], min_samples_leaf = Bestset[2]), n_estimators=Bestadaboost[0], learning_rate=Bestadaboost[1], random_state=rng)
+    # clf = DecisionTreeRegressor(max_depth=Bestset[0], min_samples_split=Bestset[1], min_samples_leaf = Bestset[2])
+    clf = clf.fit(X_train, y_train)
+
+    y_pred = clf.predict(X_test)
+    #x_sample = range(len(y_pred))
+    #plt.scatter(x_sample[:100], y_pred[:100], color='r')
+    # print x_sample[:10]
+    # print y_pred[:10]
+    # print len(y_pred)
+    #
+    # with open('adaboost_result.csv', 'wb') as result_file:
+    #     csv_writer = csv.writer(result_file)
+    #     for i in range(len(y_pred)):
+    #         csv_writer.writerow([y_pred[i]])
+    res = calculate_mse(y_pred, y_test)
+    dec_res.append(res)
+    #
+    # plt.scatter(x_sample[:100], y_test[:100], color='y')
+    # plt.show()
+
+print svm_res
+print dec_res
+x_sample = range(len(svm_res))
+plt.scatter(x_sample, svm_res, color='b')
+plt.scatter(x_sample, dec_res, color='r')
+plt.ylabel('Mean Squared Error (MSE)')
+plt.xlabel('Cluster ID')
+
+text = iter(['SVM', 'Adaboost'])
+
+
+mpl_fig = plt.gcf()
+plotly_fig = tls.mpl_to_plotly( mpl_fig )
+
+for dat in plotly_fig['data']:
+    t = text.next()
+    dat.update({'name': t, 'text':t})
+
+plotly_fig['layout']['showlegend'] = True
+py.plot(plotly_fig)
+#plt.show()
